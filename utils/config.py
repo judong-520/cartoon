@@ -1,0 +1,12 @@
+from utils.settings import SQLALCHEMY_DATABASE_URI
+
+
+class Config:
+
+    # 数据库配置
+    SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+
+
+
